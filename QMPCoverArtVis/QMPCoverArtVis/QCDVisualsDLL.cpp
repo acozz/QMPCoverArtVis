@@ -525,7 +525,7 @@ BOOL CALLBACK AboutProc(HWND dlg, UINT msg, WPARAM wParam, LPARAM lParam)
 //==Property Sheet Initialization Function==
 void PropertySheetInit(HWND parentWindow, HINSTANCE pluginInst)
 {
-	const NUM_PAGES = 7;
+	const int NUM_PAGES = 7;
     PROPSHEETPAGE psp[NUM_PAGES];
     PROPSHEETHEADER psh;
 
