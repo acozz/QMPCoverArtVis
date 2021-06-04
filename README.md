@@ -8,7 +8,7 @@ In addition, conformance mode (/permissive-) was turned off to allow the Windows
 
 See https://web.archive.org/web/20210315184252/https://docs.microsoft.com/en-us/cpp/build/configuring-programs-for-windows-xp?view=msvc-160 for information on targeting Windows XP.
 
-This support for Windows XP is deprecated, so it may not be possible to compile in the future without many changes.
+Visual Studio's support for Windows XP is deprecated, so it may not be possible to compile in the future without many changes.
 
 ## Original Description
 https://web.archive.org/web/20160307221351/http://quinnware.com/list_plugins.php?plugin=19
