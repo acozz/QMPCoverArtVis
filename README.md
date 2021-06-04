@@ -1,8 +1,18 @@
 # QMPCoverArtVis
-Visualization plug-in for the defunct Quintessential Media Player. It was written for Windows XP with the last release (version 2.971) on October 21st, 2004. Compilers have become better and more stringent, so this project does not compile in its current state.
+Visualization plug-in for the defunct Quintessential Media Player. It was written for Windows XP with the last release (version 2.971) on October 21st, 2004.
 
-# Original Description
+## Compilation and Linking
+Compilers have become better and more stringent, so this project does not compile in its current state when targeting modern Windows. The solution has been set up to target the Windows XP Platform Toolset (Visual Studio 2017 - Windows XP (v141_xp)) using Visual Studio 2019. MFC support is also required (for resources).
+
+In addition, conformance mode (/permissive-) was turned off to allow the Windows XP API to compile. These dependencies are linked: gdiplus.lib, wininet.lib, Comctl32.lib
+
+See https://web.archive.org/web/20210315184252/https://docs.microsoft.com/en-us/cpp/build/configuring-programs-for-windows-xp?view=msvc-160 for information on targeting Windows XP.
+
+This support for Windows XP is deprecated, so it may not be possible to compile in the future without many changes.
+
+## Original Description
 https://web.archive.org/web/20160307221351/http://quinnware.com/list_plugins.php?plugin=19
+
 ![QMPCoverArtVis example](https://web.archive.org/web/20150428075727im_/http://www.quinnware.com/img/plugin_screens/CoverArtVis.jpg)
 
 This plugin allows one to load cover art image files to the vis window (created with cover art in mind but any picture file will work)!
